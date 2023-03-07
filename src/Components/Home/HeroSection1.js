@@ -1,8 +1,5 @@
 import React from 'react'
 import hero1 from '../../img/Group 50.png'
-
-import axe from '../../img/axe 1 (1).png'
-import markImg from '../../img/medieval-knights-armour-helmet 1 (1).png'
 import Button from '../Button'
 
 

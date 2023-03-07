@@ -5,12 +5,14 @@
     background-position:  center;
     background-repeat: no-repeat;
     height: 850px;
+    width: 100%;
     /* background-size: cover; */
 }
 .available-game-banner{
     background:url('../../img/Group 51.png');
     background-position:  center;
     background-repeat: no-repeat;
+    width: 100%;
     /* background-size: cover; */
     margin: 0;
 
@@ -27,6 +29,7 @@
     background:url('../../img/Group 24.png');
     background-position:  center;
     background-repeat: no-repeat;
+    width: 100%;
     /* background-size: cover; */
     margin: 0;
 }
@@ -35,6 +38,7 @@
     background:url('../../img/Group 26.png');
     background-position:  center;
     background-repeat: no-repeat;
+    width: 100%;
     /* background-size: cover; */
     margin: 0;
 }

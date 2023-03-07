@@ -1,8 +1,5 @@
 import React from 'react'
 import hero1 from '../../img/Group 71.png'
-
-import shield from '../../img/shield 2 1 (1).png'
-import armor from '../../img/armor 1 (2).png'
 import Button from '../Button'
 
 
@@ -20,7 +17,7 @@ const HeroSection2 = () => {
 
         <div className="img-section lg:w-[50%] relative ">
            <div className="">
-           <img className='' src={hero1} alt="" />
+           <img  src={hero1} alt="" />
            </div>
         </div>
     </div>
