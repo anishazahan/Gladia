@@ -7,16 +7,16 @@ const VedioModal = ({isvisible,onClose,Children}) => {
     }
 
   return (
-    <div className='fixed inset-0 items-center bg-black bg-opacity-20 backdrop-blur-sm flex justify-center mx-auto'>
+    <div className='fixed inset-0 items-center bg-black bg-opacity-30 flex justify-center mx-auto'>
 
     <div className="border">
-    <div onClick={handleClose} className="w-[500px] bg-[#5C38EF] m-3 p-3" id='login-wrapper'>
+    <div onClick={handleClose} className=" w-full md:w-[320px] bg-transparent m-3 p-3" id='login-wrapper'>
         <div className="flex justify-end">
-         <button onClick={()=>onClose()}>X</button>
+         <button className='text-white' onClick={()=>onClose()}>X</button>
         </div>
-        <div className="">
-    <h1>Vedio</h1>
-    <input type="text" />
+        <div className="w-full mx-auto">
+    <h1 className='font-bold text-white'>Vedio</h1>
+    <iframe width="full" height="315" src="https://www.youtube.com/embed/G9iV2fFkE7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
     </div>

@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import Navbar from '../Navbar'
 import './TopBanner'
 import bannerImg from '../../img/heading.png'
 import img1 from '../../img/Group 4 (1).png'
 import img2 from '../../img/Group 4 (2).png'
 import img3 from '../../img/Group 33.png'
-import img4 from '../../img/Group 5.png'
-import img5 from '../../img/Group 5 (1).png'
 import Button from '../Button'
 import LoginModal from '../../Shared/Login/LoginModal'
 import RegisterModal from '../../Shared/Register/RegisterModal'
@@ -36,24 +33,24 @@ const TopBanner = ({}) => {
     </div>
     </div>
 
-   <div className="flex justify-between bottom-0 w-full">
+   <div className="flex flex-col lg:flex-row justify-between bottom-0 w-full pt-20">
 
-   <div className="flex gap-4 w-[40%]">
-        <div className="w-full ">
-        <img className='w-[90%] h-full' src={img1} alt="" />
+   <div className="flex gap-2 w-full lg:w-[40%]">
+        <div className="w-full  ">
+        <img className='w-[90%] h-full ' src={img1} alt="" />
         </div>
-        <div className="w-full">
-        <img className='w-[90%] h-full ' src={img2} alt="" />
+        <div className="w-full relative">
+        <img className='w-[90%] h-full absolute mt-[4rem] ' src={img2} alt="" />
         </div>
    </div>
 
-   <div className="w-[20%]">
-   <img onClick={()=>setShowVedioModal(true)} className='' src={img3} alt="" />
+   <div className="w-[20%] relative flex justify-center">
+   <img onClick={()=>setShowVedioModal(true)} className='w-[30%] absolute bottom-0 cursor-pointer' src={img3} alt="" />
    </div>
 
-   <div className="flex w-[40%] gap-4">
-   <div className="w-full mx-auto">
-        <img className='w-[90%] h-full' src={img1} alt="" />
+   <div className="flex w-full lg:w-[40%] gap-2">
+   <div className="w-full mx-auto relative">
+        <img className='w-[90%] h-full absolute mt-[4rem] ' src={img1} alt="" />
         </div>
         <div className="w-full">
         <img className='w-[90%] h-full ' src={img2} alt="" />

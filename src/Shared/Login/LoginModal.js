@@ -1,5 +1,5 @@
 import React, { Children } from 'react'
-import img from '../../img/Group 8.png'
+import img from '../../img/Group 8 (1).png'
 import {AiFillEyeInvisible,AiOutlineClose} from "react-icons/ai"
 import { Link } from 'react-router-dom';
 
@@ -10,17 +10,17 @@ const LoginModal = ({isvisible,onClose,Children}) => {
     }
 
   return (
-    <div className='fixed inset-0 items-center bg-black bg-opacity-20 backdrop-blur-sm flex justify-center mx-auto duration-500'>
+    <div className='fixed inset-0 items-center bg-black bg-opacity-40 flex justify-center mx-auto duration-500'>
 
     <div className="border relative">
     <div onClick={handleClose} className="w-[450px] bg-[#5C38EF] m-3 p-3" id='login-wrapper'>
 
         {/* ........close btn............ */}
-        <div className="flex justify-end">
+        <div className="flex justify-end pt-6 px-4">
          <button className='text-white font-bold text-2xl pl-4' onClick={()=>onClose()}><AiOutlineClose></AiOutlineClose></button>
         </div>
         <div className="px-6">
-     <h1 className='text-center text-xl text-gray-100 font-bold my-4'>LOGIN</h1>
+     <h1 className='text-center text-xl text-gray-100 font-bold mt-10 mb-4'>LOGIN</h1>
 
    <form >
       {/* ..............input field for email........... */}
@@ -56,9 +56,9 @@ const LoginModal = ({isvisible,onClose,Children}) => {
    
         </div>
     </div>
-    {/* <div className="absolute top-[2rem] mx-auto">
+    <div className="absolute top-[-3rem] flex justify-center w-full ">
         <img src={img} alt="" />
-    </div> */}
+    </div>
     </div>
 
     </div>

@@ -6,7 +6,7 @@ import Button from '../Button'
 const HeroSection1 = () => {
   return (
     <div className='hero-section-1 my-0'>
-        <div className="max-w-7xl px-5 md:px-10 lg:px-20 mx-auto flex flex-col lg:flex-row justify-between lg:gap-10 items-center py-20 ">
+        <div className="max-w-7xl px-5 md:px-10 lg:px-10 mx-auto flex flex-col lg:flex-row justify-between lg:gap-10 items-center py-20 ">
             <div className="img-section lg:w-[50%] relative ">
                <div className="">
                <img className='' src={hero1} alt="" />
